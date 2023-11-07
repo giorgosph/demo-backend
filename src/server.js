@@ -10,6 +10,6 @@ app.use(express.json());
 
 const apiRoute = "/api/v1";
 
-app.use(`${apiRoute}/section`, section);
+app.use(`${apiRoute}/content`, section);
 
 module.exports = app;
